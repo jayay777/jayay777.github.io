@@ -1,7 +1,7 @@
 - name: AirSlash!
   image: ../assets/images/1280x720%20Placeholder.png
   link: 
-  description: A rogue-like platformer with command-based input system like Tekken. Made with Unity.
+  description: A rogue-like platformer with command-based input system like Tekken.
 - name: CatGPT
   link:
   image: ../assets/images/1280x720%20Placeholder.png
@@ -17,4 +17,4 @@
 - name: Project BulletTime - In Progress
   link:
   image: ../assets/images/SamplePost.png
-  description:  A card game with a twist. Slay the Spire meets XCom. a single project in progress.
+  description:  A card game with a twist. Slay the Spire meets XCom. Private project.
