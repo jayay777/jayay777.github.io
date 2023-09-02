@@ -44,12 +44,14 @@ layout: compress
               {% endfor %}
             </p>
             {%- endunless -%}
+            <!--
             {% assign words = content | number_of_words %}
             {%- unless content.size == 0 -%}
             <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
                 {{ words | divided_by:180 }} min
               </b>READ</p>
             {%- endunless -%}
+            -->
           </div>
         </div>
         <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">

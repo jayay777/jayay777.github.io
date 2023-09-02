@@ -7,14 +7,14 @@
   image: ../assets/images/1280x720%20Placeholder.png
   description: a mini-project using GPT-2.5 to generate a talking pet simulator.
 - name: AI Libary Genre Categorization using Pytorch
-  link:
-  image: ../assets/images/1280x720%20Placeholder.png
+  link: /blog/AI-Library-Genre-Categorization
+  image: ../assets/images/library_image.jpg
   description: Predicting the genre of a book using its title & index.
 - name: Dimension Guards
-  link:
-  image: ../assets/images/1280x720%20Placeholder.png
+  link: /blog/Dimension-Guards
+  image: ../assets/images/DimensionGuardMainMenu.png
   description: 1 vs 3 asymmetrical pvp game. Made with a team of 4.
 - name: Project BulletTime - In Progress
-  link:
+  link: /blog/Project-BulletTime
   image: ../assets/images/SamplePost.png
-  description:  A card game with a twist. Slay the Spire meets XCom. Private project.
+  description: A card game with a twist. Slay the Spire meets XCom. Private project.
