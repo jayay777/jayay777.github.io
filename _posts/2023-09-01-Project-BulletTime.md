@@ -26,6 +26,8 @@ Aside from the 3d models, illustrations and some of the music, everything has be
 
 * The black market & workshop
 
+* 10+ Enemy attacks, movement and patterns
+
 <div class="image-container">
   <img src="/assets/images/PBMap.gif" alt="Image">
 </div>
