@@ -1,10 +1,10 @@
 - name: AirSlash!
-  image: ../assets/images/1280x720%20Placeholder.png
-  link: 
+  image: /assets/images/AirSlashMain.png
+  link: /blog/AirSlash
   description: A rogue-like platformer with command-based input system like Tekken.
 - name: CatGPT
-  link:
-  image: ../assets/images/1280x720%20Placeholder.png
+  link: /blog/CatGPT
+  image: /assets/images/CatGPT_Main.PNG
   description: a mini-project using GPT-2.5 to generate a talking pet simulator.
 - name: AI Libary Genre Categorization using Pytorch
   link: /blog/AI-Library-Genre-Categorization

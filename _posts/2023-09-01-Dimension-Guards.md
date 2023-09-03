@@ -16,8 +16,20 @@ tags:
 Dimension Guard is an indie game project made by myself and 3 others.
 This was the first time the four of us had made a multiplayer game, but we are proud with the result. The game is about a 3d monster that has invaded the 2d dimensions, and the heroes that have gathered from each 2d dimension to defeat the monster; hence the name Dimension Guards.
 
-I've took the role of director and programmer, designating who does what, and merging the branches together after a week of scrum. To see the ppt file that was used for our file presentation, click [here](https://docs.google.com/presentation/d/1cvz4yqGyVMoZp8wuMA2OneTWg2oQK1YvoNB5HngSOLs/edit?usp=sharing){:target="blank"}
+I've took the role of director and programmer. Designating who does what, and merging the branches together after a week of scrum. For the programming part, the parts that I have implemented are:
 
+* The Login & Lobby
+* Statistics
+* Communication & Synchronization with the backend server
+* Intro Cutscene
+* Main Menu design.
+* Debugging & Troubleshooting for other members
+
+To see the ppt file that was used for our file presentation, click [here](https://docs.google.com/presentation/d/1cvz4yqGyVMoZp8wuMA2OneTWg2oQK1YvoNB5HngSOLs/edit?usp=sharing){:target="blank"}
+
+
+Our team has following the Agile Scrum methodology.
+The project was finished in 8 sprints that were mostly 1 week long. To have a look at the schedule we followed, click [here](/assets/pdf/DGScrumLog.pdf){:target="blank"}
 
 # Main features
 
