@@ -6,7 +6,7 @@
   link: /blog/CatGPT
   image: /assets/images/CatGPT_Main.PNG
   description: a mini-project using GPT-2.5 to generate a talking pet simulator.
-- name: AI Libary Genre Categorization using Pytorch
+- name: AI Librarian
   link: /blog/AI-Library-Genre-Categorization
   image: ../assets/images/library_image.jpg
   description: Predicting the genre of a book using its title & index.
