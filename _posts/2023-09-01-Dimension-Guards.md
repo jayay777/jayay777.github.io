@@ -14,26 +14,26 @@ tags:
 
 
 Dimension Guard is an indie game project made by myself and 3 others.
-This was the first time the four of us had made a multiplayer game, but we are proud with the result. The game is about a 3d monster that has invaded the 2d dimensions, and the heroes that have gathered from each 2d dimension to defeat the monster; hence the name Dimension Guards.
+This was the first time the four of us had made a multiplayer game, but we are proud of the result. The game is about a 3D monster that has invaded the 2D dimensions and the heroes that have gathered from each 2D dimension to defeat the monster; hence the name Dimension Guards.
 
-I've took the role of director and programmer. Designating who does what, and merging the branches together after a week of scrum. For the programming part, the parts that I have implemented are:
+I've taken the role of director and programmer. Designating who does what, and merging the branches after a week of scrum. For the programming part, the parts that I have implemented are:
 
 * The Login & Lobby
 * Statistics
-* Communication & Synchronization with the backend server
+* Communication and synchronization with the backend server
 * Intro Cutscene
 * Main Menu design.
-* Debugging & Troubleshooting for other members
+* Debugging and troubleshooting for other members
 
 To see the ppt file that was used for our file presentation, click [here](https://docs.google.com/presentation/d/1cvz4yqGyVMoZp8wuMA2OneTWg2oQK1YvoNB5HngSOLs/edit?usp=sharing){:target="blank"}
 
 
-Our team has following the Agile Scrum methodology.
+Our team has followed the Agile Scrum methodology.
 The project was finished in 8 sprints that were mostly 1 week long. To have a look at the schedule we followed, click [here](/assets/pdf/DGScrumLog.pdf){:target="blank"}
 
 # Main features
 
-* The Boss player using mouse controls to places skills into attack queue, which attacks the heroes
+* The Boss player uses mouse controls to place skills into the attack queue, which attacks the heroes
 
 
 <div class="image-container">

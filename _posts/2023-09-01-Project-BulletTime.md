@@ -13,7 +13,7 @@ tags:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0D5SxUNGVfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Project BulletTime is a private project I've been working on, bit by bit ever since I started Unity. To put it simply, it is a mix of Slay the Spire and XCom. The player uses cards to defeat enemies, and acquire more cards or upgrade them to go forward. The twist is that <b>time</b> is also a resource. Each card uses a certain amount of time unless it is used with a cancel mode. You can also say that it is a strategic real-time action game that is mixed up with Slay the Spire.
-	
+  
 # Features I have implemented.
 
 Aside from the 3D models, illustrations, and some of the music, everything has been done by myself. Including:
@@ -26,7 +26,7 @@ Aside from the 3D models, illustrations, and some of the music, everything has b
 
 * The black market & workshop
 
-* 10+ Enemy attacks, movement, and patterns
+* 10+ Enemy attacks, movements, and patterns
 
 <div class="image-container">
   <img src="/assets/images/PBMap.png" alt="Image">
