@@ -1,3 +1,11 @@
+- name: Project BulletTime - In Progress
+  link: /blog/Project-BulletTime
+  image: ../assets/images/PBMainMenu.png
+  description: A card game with a twist. Slay the Spire meets XCom. Private project.
+- name: Dimension Guards
+  link: /blog/Dimension-Guards
+  image: ../assets/images/DimensionGuardMainMenu.PNG
+  description: 1 vs 3 asymmetrical pvp game. Made with a team of 4.
 - name: AirSlash!
   image: /assets/images/AirSlashMain.png
   link: /blog/AirSlash
@@ -10,11 +18,3 @@
   link: /blog/AI-Library-Genre-Categorization
   image: ../assets/images/library_image.jpg
   description: Predicting the genre of a book using its title & index.
-- name: Dimension Guards
-  link: /blog/Dimension-Guards
-  image: ../assets/images/DimensionGuardMainMenu.PNG
-  description: 1 vs 3 asymmetrical pvp game. Made with a team of 4.
-- name: Project BulletTime - In Progress
-  link: /blog/Project-BulletTime
-  image: ../assets/images/PBMainMenu.png
-  description: A card game with a twist. Slay the Spire meets XCom. Private project.
