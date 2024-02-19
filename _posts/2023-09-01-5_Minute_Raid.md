@@ -1,7 +1,7 @@
 ---
 title: 5 Minute Raid
 layout: post
-post-image: /assets/images/DimensionGuardMainMenu.PNG
+post-image: /assets/images/5MinRaidChibi.png
 description: A Real-time, Mobile successor of Dimension Guards. 
 tags:
 - Unity
@@ -38,6 +38,7 @@ Some feature that were updated so far (2024.02.19) include:
 
 
 More details and screenshots can be found in the following google slide link (Korean):
-[<b>click here</b>]https://docs.google.com/presentation/d/1q2g2ipUoXR1JK2VJJ4JoRUtXA9lyr-eUDZbuiZ4PA1E/edit?usp=sharing{:target="blank"}
+
+[<b>click here</b>](https://docs.google.com/presentation/d/1q2g2ipUoXR1JK2VJJ4JoRUtXA9lyr-eUDZbuiZ4PA1E/edit?usp=sharing){:target="blank"}
 
 
