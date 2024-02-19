@@ -10,18 +10,15 @@ tags:
 ---
 
 
-
-
-
 5 Minute Raid is a new take on the previous project Dimension Guard; an indie game project made by myself and 3 others.
-Our team decided it is a waste to simply let go of this fresh idea and let it be forgotten as a university project.
+Our team decided it was a waste to simply let go of this fresh idea and let it be forgotten as a university project.
 
-The general idea is the same; 3 heros team up together against another player, who takes the role of the raid boss.
+The general idea is the same; 3 heroes team up together against another player, who takes the role of the raid boss.
 
-The viewpoint has changed from a side-scroll platformer to a top-down view in order to diversify the gameplay.
-The original Dimension Guards had a problem that the platformer aspect restricted the movement and tactics too much, and thus while this did make the gameplay did feel casual, there weren't a lot of viable options to give it some depth.
+The viewpoint has changed from a side-scroll platformer to a top-down view to diversify the gameplay.
+The original Dimension Guards had a problem in which the platformer aspect restricted the movement and tactics too much, and thus while this did make the gameplay feel casual, there weren't a lot of viable options to give it some depth.
 
-Below is a very early development build test gameplay that was played with the 4 team members. There were many visual bugs yet to be fixed, but most of the gameplay bugs were fixed by this point.
+Below is a very early development build test gameplay that was played with the 4 team members. There were many visual bugs yet to be fixed, but most of the gameplay bugs were fixed by this point. One of the unique aspects of the game is shown in the video: The Shielder class 'Taunt' skill. Since the boss is a player as well, we decided to implement taunt by making the boss only be able to see the taunter for the duration of the skill. This buys time for the dealers such as Magician or Ranger to safely land critical blows.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hiU3X6Vqy4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
