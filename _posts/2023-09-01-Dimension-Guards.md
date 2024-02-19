@@ -16,7 +16,7 @@ tags:
 Dimension Guard is an indie game project made by myself and 3 others.
 This was the first time the four of us had made a multiplayer game, but we are proud of the result. The game is about a 3D monster that has invaded the 2D dimensions and the heroes that have gathered from each 2D dimension to defeat the monster; hence the name Dimension Guards.
 
-I've taken the role of director and programmer. Designating who does what, and merging the branches after a week of scrum. For the programming part, the parts that I have implemented are:
+I've taken the role of director and programmer. Designating who does what, and merging the branches after a week of scrum. For the programming part, the features I have implemented:
 
 * The Login & Lobby
 * Statistics
@@ -25,11 +25,18 @@ I've taken the role of director and programmer. Designating who does what, and m
 * Main Menu design.
 * Debugging and troubleshooting for other members
 
-To see the ppt file that was used for our file presentation, click [here](https://docs.google.com/presentation/d/1cvz4yqGyVMoZp8wuMA2OneTWg2oQK1YvoNB5HngSOLs/edit?usp=sharing){:target="blank"}
 
 
-Our team has followed the Agile Scrum methodology.
+
+To see the ppt file that was used for our file presentation, 
+
+[<b>click here</b>](https://docs.google.com/presentation/d/1cvz4yqGyVMoZp8wuMA2OneTWg2oQK1YvoNB5HngSOLs/edit?usp=sharing){:target="blank"}
+
+
+Our team has followed the Agile Scrum methodology. 
 The project was finished in 8 sprints that were mostly 1 week long. To have a look at the schedule we followed, click [here](/assets/pdf/DGScrumLog.pdf){:target="blank"}
+
+The divided work was merged after each sprint, and after jotting down the feedbacks and problems, I assigned each of the members new work for the next sprint. The same team members joined together once again next semester for a more proper, refined version of the same game concept: <b>5 Minute Raid</b>.
 
 # Main features
 

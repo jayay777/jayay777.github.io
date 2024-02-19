@@ -12,7 +12,7 @@ tags:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0D5SxUNGVfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Project BulletTime is a private project I've been working on, bit by bit ever since I started Unity. To put it simply, it is a mix of Slay the Spire and XCom. The player uses cards to defeat enemies, and acquire more cards or upgrade them to go forward. The twist is that <b>time</b> is also a resource. Each card uses a certain amount of time unless it is used with a cancel mode. You can also say that it is a strategic real-time action game that is mixed up with Slay the Spire.
+Project BulletTime is a private project I've been working on, bit by bit ever since I started Unity. To put it simply, it is a mix of Slay the Spire and XCom. The player uses cards to defeat enemies, and acquire more cards or upgrade them to go forward. The twist is that <b>time</b> is also a resource. Each card uses a certain amount of time unless it is used with a feature called cancel mode. It is a strategic real-time action game that is mixed up with Slay the Spire.
   
 # Features I have implemented.
 
@@ -48,7 +48,9 @@ Aside from the 3D models, illustrations, and some of the music, everything has b
 
 
 The following shows the source code for the PlayerController class above. It is one of the most crucial part of the game.
-PlayerController acts as a sort of Facade pattern for the DeckManager so that it can simply hand over the the information about the card(<b>CardProperties</b>) and the position(Vector3) without needing to worry about how the player is going to have to move using Navcon or attack with FOV.
+PlayerController acts as a sort of Facade pattern for the DeckManager so that it can simply hand over the the information about the card(<b>CardProperties</b>) and the position(Vector3) without needing to worry about how the player is going to have to move using Navcon or attack with FOV. DeckManager already has a lot to handle, so such pattern was definitely necessary.
+
+The PlayerController code is shown below as an example. The Deckmanager only has to call methods such as StartAttack with just the CardProperties of the used cards, and the PlayerController handles the rest of the necessary components (such as camera, transform, attackFOV, etc). This makes it so that the DeckManager can focus on managing decks.
 
 <details>
   <summary>PlayerController Code (Click to Open)</summary>

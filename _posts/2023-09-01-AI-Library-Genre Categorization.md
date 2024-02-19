@@ -21,7 +21,7 @@ The overall process is as follows:
 3. Train the categorization model with title, index to genre, and try out different hyperparameters
 
     
-# Features that I have implemented
+# Features I have implemented
 
 * Crawling the information from the library website
 * The English title to genre categorization
