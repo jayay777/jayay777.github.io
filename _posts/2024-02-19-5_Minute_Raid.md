@@ -20,10 +20,14 @@ The original Dimension Guards had a problem in which the platformer aspect restr
 
 Below is a very early development build test gameplay that was played with the 4 team members. There were many visual bugs yet to be fixed, but most of the gameplay bugs were fixed by this point. One of the unique aspects of the game is shown in the video: The Shielder class 'Taunt' skill. Since the boss is a player as well, we decided to implement taunt by making the boss only be able to see the taunter for the duration of the skill. This buys time for the dealers such as Magician or Ranger to safely land critical blows.
 
+<b> Pre-Alpha Version </b>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hiU3X6Vqy4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<b> v0.0.1 Alpha Test </b>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/--Xefx3aR0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Some feature that were updated so far (2024.02.19) include:
+
+Some feature that were updated so far (2024.04.07) include:
 
 - 6 different roles for Guardians: Shielder, Axeman, Ranger, Assassin, Magician, and Healer
 - 12 different perks for Guardians: 3 can be selected to customize the character according to the play style.
@@ -38,4 +42,5 @@ More details and screenshots can be found in the following google slide link (Ko
 
 [<b>click here</b>](https://docs.google.com/presentation/d/1q2g2ipUoXR1JK2VJJ4JoRUtXA9lyr-eUDZbuiZ4PA1E/edit?usp=sharing){:target="blank"}
 
+The team's youtube channel can be found [<b>here</b>](https://www.youtube.com/@TeamMoMong){:target="blank"}
 
