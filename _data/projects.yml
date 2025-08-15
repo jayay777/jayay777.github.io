@@ -1,8 +1,8 @@
-- name: 5 Minute Raid - In Progress
+- name: 5 Minute Raid
   link: /blog/5_Minute_Raid
-  image: ../assets/images/5MinRaidIcon.png
-  description: A step up from Dimension Guards. 1 vs 3 mobile & pc pvp. To be released by April 2024.
-- name: Project BulletTime - In Progress
+  image: ../assets/images/5MinuteRaidHeaderCapsule1.png
+  description: A step up from Dimension Guards. 1 vs 3 pvp. Released in December 2024.
+- name: Project BulletTime
   link: /blog/Project-BulletTime
   image: ../assets/images/PBMainMenu.png
   description: A card game with a twist. Slay the Spire meets XCom. Private project.
@@ -13,12 +13,12 @@
 - name: AirSlash!
   image: /assets/images/AirSlashMain.png
   link: /blog/AirSlash
-  description: A rogue-like platformer with command-based input system like Tekken.
+  description: 3 day project, A rogue-like platformer with command-based input system like Tekken.
 - name: CatGPT
   link: /blog/CatGPT
   image: /assets/images/CatGPT_Main.PNG
   description: a mini-project using GPT-2.5 to generate a talking pet simulator.
-- name: AI Librarian
-  link: /blog/AI-Library-Genre-Categorization
-  image: ../assets/images/library_image.jpg
-  description: Predicting the genre of a book using its title & index.
+# - name: AI Librarian
+#   link: /blog/AI-Library-Genre-Categorization
+#   image: ../assets/images/library_image.jpg
+#   description: Predicting the genre of a book using its title & index.

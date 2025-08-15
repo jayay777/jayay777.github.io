@@ -2,69 +2,90 @@
 title: Dimension Guards
 layout: post
 post-image: /assets/images/DimensionGuardMainMenu.PNG
-description: 1 vs 3 asymmetrical pvp game. Made with a team of 4.
+description: 1 vs 3 asymmetrical PvP game developed by a team of four.
 tags:
 - Unity
 - Multiplayer
 - Team Project
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8gHJH7bPte0" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8gHJH7bPte0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Dimension Guards** was a university indie game project created by myself and three teammates.  
+It was the first time any of us had developed a multiplayer title—and despite the steep learning curve, we were proud of the final result.
 
+---
 
-Dimension Guard is an indie game project made by myself and 3 others.
-This was the first time the four of us had made a multiplayer game, but we are proud of the result. The game is about a 3D monster that has invaded the 2D dimensions and the heroes that have gathered from each 2D dimension to defeat the monster; hence the name Dimension Guards.
+## Concept
+The game features a **1 vs 3 asymmetrical PvP** setup.  
+A powerful **3D monster** invades multiple **2D worlds**, and heroes from each dimension join forces to defeat it—hence the name *Dimension Guards*.
 
-I've taken the role of director and programmer. Designating who does what, and merging the branches after a week of scrum. For the programming part, the features I have implemented:
+---
 
-* The Login & Lobby
-* Statistics
-* Communication and synchronization with the backend server
-* Intro Cutscene
-* Main Menu design.
-* Debugging and troubleshooting for other members
+## My Role
+I served as **Director** and **Programmer**, responsible for:
+- Assigning tasks and organizing weekly Scrum meetings
+- Merging branches after each sprint
+- Implementing major systems, including:
 
+  - Login & Lobby systems
+  - Player and match statistics
+  - Backend communication and synchronization
+  - Intro cutscene
+  - Main menu UI
+- Debugging and troubleshooting across all modules
 
+We followed **Agile Scrum methodology**, completing the project in **8 weekly sprints**.  
+You can view our development schedule [here](/assets/pdf/DGScrumLog.pdf){:target="blank"} and our original project presentation [here](https://docs.google.com/presentation/d/1cvz4yqGyVMoZp8wuMA2OneTWg2oQK1YvoNB5HngSOLs/edit?usp=sharing){:target="blank"}.
 
+---
 
-To see the ppt file that was used for our file presentation, 
+## Development Process
+After each sprint:
+1. We merged all completed work.
+2. Collected feedback and identified issues.
+3. Assigned new tasks for the next sprint.
 
-[<b>click here</b>](https://docs.google.com/presentation/d/1cvz4yqGyVMoZp8wuMA2OneTWg2oQK1YvoNB5HngSOLs/edit?usp=sharing){:target="blank"}
+This project directly inspired our next, more refined game: **[5 Minute Raid](/5MinuteRaid)**.
 
+---
 
-Our team has followed the Agile Scrum methodology. 
-The project was finished in 8 sprints that were mostly 1 week long. To have a look at the schedule we followed, click [here](/assets/pdf/DGScrumLog.pdf){:target="blank"}
-
-The divided work was merged after each sprint, and after jotting down the feedbacks and problems, I assigned each of the members new work for the next sprint. The same team members joined together once again next semester for a more proper, refined version of the same game concept: <b>5 Minute Raid</b>.
-
-# Main features
-
-* The Boss player uses mouse controls to place skills into the attack queue, which attacks the heroes
-
-
-<div class="image-container">
-  <img src="/assets/images/DGBoss.gif" alt="Image">
-</div>
-
-
-* Up to 3 Hero players using keyboard controls to roll and dodge the boss attacks and defeat the boss together
-
-
-<div class="image-container">
-  <img src="/assets/images/DGHero.gif" alt="Image">
-</div>
-
-* Login & Lobby
+## Main Features
+- **Boss Role (1 Player)**  
+  Controls attacks using mouse input to queue skills, targeting the heroes.
 
 <div class="image-container">
-  <img src="/assets/images/DimensionGuardsLogin.png" alt="Image">
+  <img src="/assets/images/DGBoss.gif" alt="Boss gameplay">
 </div>
 
-* Statistics after the game & for each account
+- **Hero Role (Up to 3 Players)**  
+  Uses keyboard controls to roll, dodge, and counter the boss’s attacks.
 
 <div class="image-container">
-  <img src="/assets/images/DimensionGuardsStatistics.png" alt="Image">
+  <img src="/assets/images/DGHero.gif" alt="Hero gameplay">
 </div>
 
+- **Login & Lobby System**
 
+<div class="image-container">
+  <img src="/assets/images/DimensionGuardsLogin.png" alt="Login screen">
+</div>
+
+- **Post-Game Statistics**  
+  Displays match data and player account stats.
+
+<div class="image-container">
+  <img src="/assets/images/DimensionGuardsStatistics.png" alt="Statistics screen">
+</div>
+
+---
+
+## Lessons Learned
+**Dimension Guards** was my first hands-on experience with:
+- Building a multiplayer game from the ground up in Unity
+- Managing a small development team using Agile Scrum
+- Handling version control and resolving merge conflicts in a collaborative setting
+
+This project taught me not only the technical skills behind multiplayer game programming but also the importance of **clear communication, role assignment, and iterative development**.  
+It laid the foundation for my leadership style and directly influenced the design and scope of
+[**5 Minute Raid**](/blog/5_Minute_Raid).

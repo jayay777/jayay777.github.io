@@ -282,6 +282,9 @@ a.navbar-item.is-active {
         }
     }
     .card {
+        background-color: black !important;
+        border-radius: 0.5rem;
+        overflow: hidden; /* 둥근 모서리 밖 흰색 가림 */
         transition: all 0.25s ease;
         &:hover {
             background-color: rgba($color: #000000, $alpha: 0.90)!important;
