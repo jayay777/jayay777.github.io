@@ -46,7 +46,7 @@ In the clip below, the *Shielder* class uses their **Taunt** skill. Since the bo
 During development, we connected with publishers and fellow developers while preparing for [**IndieCraft**](https://www.snip.or.kr/indiecraft/contents/idcrft-2024.do?schM=view&page=1&viewCount=999&id=17407&schBdcode=2024&schGroupCode=){:target="blank"}, an indie game showcase.
 
 <div class="image-container">
-  <img src="/assets/images/IndieCraft1.png" alt="5 Minute Raid Booth">
+  <img src="/assets/images/IndieCraft1.jpg" alt="5 Minute Raid Booth">
 </div>
 *Myself at our 5 Minute Raid booth during IndieCraft 2024*
 

@@ -2,7 +2,7 @@
 title: Project BulletTime
 layout: post
 post-image: /assets/images/PBMainMenu.png
-description: A card game with a twist. Slay the Spire meets XCom. Private project.
+description: A card game with a twist. Slay the Spire meets real-time combat. Private project.
 tags:
 - Unity
 - Single Player
@@ -12,45 +12,59 @@ tags:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0D5SxUNGVfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Project BulletTime is a private project I've been working on, bit by bit ever since I started Unity. To put it simply, it is a mix of Slay the Spire and XCom. The player uses cards to defeat enemies, and acquire more cards or upgrade them to go forward. The twist is that <b>time</b> is also a resource. Each card uses a certain amount of time unless it is used with a feature called cancel mode. It is a strategic real-time action game that is mixed up with Slay the Spire.
-  
-# Features I have implemented.
+**Project BulletTime** is a personal project I’ve been developing ever since I first started working with Unity.  
+At its core, it is a **strategic real-time action game** combined with deckbuilding mechanics similar to *Slay the Spire*.  
 
-Aside from the 3D models, illustrations, and some of the music, everything has been done by myself. Including:
+The player uses **cards** to fight enemies, acquire upgrades, and push forward—but with a twist: **time is also a resource.**  
+Each card consumes time unless it is used with a special feature called **Cancel Mode**.
 
-* The idea and the game system.
+---
 
-* The 50+ cards that have been implemented, and their upgrades
+## Features I’ve Implemented
+Aside from 3D models, illustrations, and some of the music, I’ve developed everything myself, including:
 
-* UI & their animations
-
-* The black market & workshop
-
-* 10+ Enemy attacks, movements, and patterns
+- **Core Game Idea & System Design**
+- **50+ Cards** with unique mechanics and upgrade paths
+- **UI Systems & Animations**
+- **Black Market & Workshop** features for progression
+- **10+ Enemy Attack Patterns**, movements, and AI behaviors
 
 <div class="image-container">
-  <img src="/assets/images/PBMap.png" alt="Image">
+  <img src="/assets/images/PBMap.png" alt="Map">
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/PBNyalpha.png" alt="Image">
+  <img src="/assets/images/PBNyalpha.png" alt="Enemy Nyalpha">
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/PBMurdoc.png" alt="Image">
+  <img src="/assets/images/PBMurdoc.png" alt="Enemy Murdoc">
 </div>
-
-
 
 <div class="image-container">
-  <img src="/assets/images/PBPlayerUML.PNG" alt="Image">
+  <img src="/assets/images/PBPlayerUML.PNG" alt="Player UML Diagram">
 </div>
 
+---
 
-The following shows the source code for the PlayerController class above. It is one of the most crucial part of the game.
-PlayerController acts as a sort of Facade pattern for the DeckManager so that it can simply hand over the the information about the card(<b>CardProperties</b>) and the position(Vector3) without needing to worry about how the player is going to have to move using Navcon or attack with FOV. DeckManager already has a lot to handle, so such pattern was definitely necessary.
+## System Architecture
+A key component of the game is the **PlayerController** class, which acts as a **Facade** for the **DeckManager**.  
+This design ensures that DeckManager doesn’t need to worry about lower-level gameplay details such as:
 
-The PlayerController code is shown below as an example. The Deckmanager only has to call methods such as StartAttack with just the CardProperties of the used cards, and the PlayerController handles the rest of the necessary components (such as camera, transform, attackFOV, etc). This makes it so that the DeckManager can focus on managing decks.
+- Navigation (NavMeshAgent)  
+- Attacking with field of view (FOV)  
+- Camera interactions  
+- Transform updates  
+
+Instead, the DeckManager can simply call methods like `StartAttack()` with the card’s **CardProperties**, while PlayerController manages all the complex gameplay elements under the hood.  
+
+This separation of concerns keeps DeckManager focused purely on **deck logic**, while PlayerController integrates the necessary Unity components to execute actions seamlessly.
+
+---
+
+## Source Code Example
+Below is the **PlayerController** class, demonstrating how this pattern is applied in practice.
+
 
 <details>
   <summary>PlayerController Code (Click to Open)</summary>
